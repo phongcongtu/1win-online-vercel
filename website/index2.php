@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+
+<html lang="en" class="no-js">
+  <!--<![endif]-->
+  <head>
+    <!-- meta character set -->
+    <meta charset="utf-8" />
+    <!-- Always force latest IE rendering engine or request Chrome Frame -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+     
+    <title>Main</title>
+
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- CSS
+		================================================== -->
+
+    <link
+      href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- Fontawesome Icon font -->
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <!-- bootstrap.min -->
+    <link rel="stylesheet" href="css/jquery.fancybox.css" />
+    <!-- bootstrap.min -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- bootstrap.min -->
+    <link rel="stylesheet" href="css/owl.carousel.css" />
+    <!-- bootstrap.min -->
+    <link rel="stylesheet" href="css/slit-slider.css" />
+    <!-- bootstrap.min -->
+    <link rel="stylesheet" href="css/animate.css" />
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/main.css" />
+
+    <!-- Modernizer Script for old Browsers -->
+    <script src="js/modernizr-2.6.2.min.js"></script>
+  </head>
+
+  <body id="body">
+    <!-- preloader -->
+    <div id="preloader">
+      <div class="loder-box">
+        <div class="battery"></div>
+      </div>
+    </div>
+    <!-- end preloader -->
+
+    <!--
+        Fixed Navigation
+        ==================================== -->
+    <header id="navigation" class="navbar-inverse navbar-fixed-top animated-header">
+      <div class="container">
+        <div class="navbar-header">
+          <!-- responsive nav button -->
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target=".navbar-collapse"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- /responsive nav button -->
+
+          <!-- logo -->
+          <h1 class="navbar-brand">
+            <a href="index.html">Promo Palooza</a>
+          </h1>
+          <!-- /logo -->
+        </div>
+
+        <!-- main nav -->
+        <nav class="collapse navbar-collapse navbar-right" role="navigation">
+          <ul id="nav" class="nav navbar-nav">
+            <li><a href="index.html">Main</a></li>
+            <li><a href="blog.html">Articles</a></li>
+            <li><a href="contact.html">Contacts</a></li>
+            <li><a href="privacy.html">Privacy policy</a></li>
+            <li><a href="terms.html">Terms and conditions</a></li>
+          </ul>
+        </nav>
+        <!-- /main nav -->
+      </div>
+    </header>
+    <!--
+        End Fixed Navigation
+        ==================================== -->
+
+    <main class="site-content" role="main">
+      <!--
+        Home Slider
+        ==================================== -->
+
+      <section id="home-slider">
+        <div id="slider" class="sl-slider-wrapper">
+          <div class="sl-slider">
+            <div
+              class="sl-slide"
+              data-orientation="horizontal"
+              data-slice1-rotation="-25"
+              data-slice2-rotation="-25"
+              data-slice1-scale="2"
+              data-slice2-scale="2"
+            >
+              <div
+                class="bg-img bg-img-1"
+                style="background-image: url('./assets/images/bulksplash-timmykp-cps2x8jyms8.jpg')"
+              ></div>
+
+              <div class="slide-caption">
+                <div class="caption-content">
+                  <h2 class="animated fadeInDown">Popular</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /sl-slider -->
+        </div>
+        <!-- /slider-wrapper -->
+      </section>
+
+      <!--
+        End Home SliderEnd
+        ==================================== -->
+
+      <!-- Service section -->
+      <section id="service">
+        <div class="container">
+          <div class="row">
+            <div class="sec-title text-center">
+              <h2 class="wow animated bounceInLeft">Contacts</h2>
+            </div>
+
+            <div
+              class="col-md-4 col-sm-12 col-xs-12 text-center wow animated zoomIn"
+              data-wow-delay="0.3s"
+            >
+              <div class="service-item">
+                <div class="service-icon">
+                  <i class="fa fa-envelope fa-3x"></i>
+                </div>
+                <h3>josiane.king@marks.info</h3>
+              </div>
+            </div>
+
+            <div
+              class="col-md-4 col-sm-12 col-xs-12 text-center wow animated zoomIn"
+              data-wow-delay="0.6s"
+            >
+              <div class="service-item">
+                <div class="service-icon">
+                  <i class="fa fa-map-marker fa-3x"></i>
+                </div>
+                <h3>775 Reichert Track
+South Hubert, CT 19992-9408</h3>
+              </div>
+            </div>
+
+            <div
+              class="col-md-4 col-sm-12 col-xs-12 text-center wow animated zoomIn"
+              data-wow-delay="0.9s"
+            >
+              <div class="service-item">
+                <div class="service-icon">
+                  <i class="fa fa-phone fa-3x"></i>
+                </div>
+
+                <h3>+2776008884428</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end Service section -->
+
+      <!-- portfolio section -->
+      <section id="portfolio">
+        <div class="container">
+          <div class="row">
+            <div class="sec-title text-center wow animated fadeInDown">
+              <h2>Articles</h2>
+            </div>
+
+            <ul class="project-wrapper wow animated fadeInUp">
+              
+              <li class="portfolio-item">
+                <img
+                  src="./assets/images/bulksplash-timmykp-cps2x8jyms8.jpg"
+                  class="img-responsive"
+                  style="width: 100%; height: 300px; object-fit: cover"
+                />
+                <figcaption class="mask">
+                  <h3>The Importance of Target Audie...</h3>
+                  <p><strong>
+</strong> Marketing can be defined as the process of creating value for a company through the distribution of p...</p>
+                </figcaption>
+                <ul class="external">
+                  <li>
+                    <a class="fancybox" data-fancybox-group="works" href="./assets/images/bulksplash-timmykp-cps2x8jyms8.jpg"
+                      ><i class="fa fa-search"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="5f5n2cUH9eRO4aQy7UcvpARSGe.html"><i class="fa fa-link"></i></a>
+                  </li>
+                </ul>
+              </li>
+              
+
+              <li class="portfolio-item">
+                <img
+                  src="./assets/images/bulksplash-nordwood-krnzigktz48.jpg"
+                  class="img-responsive"
+                  style="width: 100%; height: 300px; object-fit: cover"
+                />
+                <figcaption class="mask">
+                  <h3>.
+
+User-Generated Content Can ...</h3>
+                  <p><strong></strong> User-generated content can be a valuable asset for brands. By creating content that’s entertaining, ...</p>
+                </figcaption>
+                <ul class="external">
+                  <li>
+                    <a class="fancybox" data-fancybox-group="works" href="./assets/images/bulksplash-nordwood-krnzigktz48.jpg"
+                      ><i class="fa fa-search"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="z2a61RtdhPbKqTVQaquo.html"><i class="fa fa-link"></i></a>
+                  </li>
+                </ul>
+              </li>
+              
+
+              <li class="portfolio-item">
+                <img
+                  src="./assets/images/bulksplash-mo_motorious-yztvsbar5p8.jpg"
+                  class="img-responsive"
+                  style="width: 100%; height: 300px; object-fit: cover"
+                />
+                <figcaption class="mask">
+                  <h3>Affiliate Marketing Can Build ...</h3>
+                  <p><strong></strong> Affiliate marketing can help lead to strong sales relationships and create more customers for business...</p>
+                </figcaption>
+                <ul class="external">
+                  <li>
+                    <a class="fancybox" data-fancybox-group="works" href="./assets/images/bulksplash-mo_motorious-yztvsbar5p8.jpg"
+                      ><i class="fa fa-search"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="19163fe40cfeea6ef5d5e72c18f50305.html"><i class="fa fa-link"></i></a>
+                  </li>
+                </ul>
+              </li>
+              
+
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- end portfolio section -->
+    </main>
+
+    <footer id="footer">
+      <div class="container">
+        <div class="row text-center">
+          <div class="footer-content">
+            <div class="wow animated fadeInDown">
+              <p>Mailing</p>
+            </div>
+            <form method="post" class="subscribe-form wow animated fadeInUp">
+              <div class="input-field">
+                <input type="email" class="subscribe form-control" />
+                <a href="thanks.html" class="submit-icon">
+                  <i class="fa fa-paper-plane fa-lg"></i>
+                </a>
+              </div>
+            </form>
+
+            <p>
+              ©
+              <script>
+                document.write(new Date().getFullYear());
+              </script>
+              Copyright
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="cookie-banner">
+      <p style="color: #000000">
+        The site uses cookies. They allow us to recognize you and get information about your user experience.By continuing to browse the site, I agree to the use of cookies by the site owner in accordance with 
+        <a target="_blank" href="https://en.wikipedia.org/wiki/HTTP_cookie"
+          >Cookie policy</a
+        >
+      </p>
+
+      <button class="close-cookie">×</button>
+    </div>
+
+    <script>
+      window.onload = function () {
+        $('.close-cookie').click(function () {
+          $('.cookie-banner').fadeOut();
+        });
+      };
+    </script>
+
+    <script>
+      let elems = document.querySelectorAll('.server-name');
+      elems.forEach((elem) => {
+        elem.innerHTML = window.location.hostname;
+      });
+    </script>
+
+    <!-- Essential jQuery Plugins
+		================================================== -->
+    <!-- Main jQuery -->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <!-- Twitter Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Single Page Nav -->
+    <script src="js/jquery.singlePageNav.min.js"></script>
+    <!-- jquery.fancybox.pack -->
+    <script src="js/jquery.fancybox.pack.js"></script>
+
+    <!-- Owl Carousel -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- jquery easing -->
+    <script src="js/jquery.easing.min.js"></script>
+    <!-- Fullscreen slider -->
+    <script src="js/jquery.slitslider.js"></script>
+    <script src="js/jquery.ba-cond.min.js"></script>
+    <!-- onscroll animation -->
+    <script src="js/wow.min.js"></script>
+    <!-- Custom Functions -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
